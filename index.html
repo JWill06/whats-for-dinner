@@ -4,7 +4,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    
+    <header class="top-section">
+      <h1 class="Title">What's for Dinner?</h1>
+      <button class="recipe-button">ADD A RECIPE</button>
+    </header>
+    <main>
+      <div class="parent-section">
+    <section class="choose-section">
+      <h1 class="looking-for">What are you looking for?</h1>
+      <ul>
+        <li>
+          <input type="radio" class="side-button" id="radioOne">Side</input>
+        </li>
+        <li>
+          <input type="radio" class="side-button" id="radioTwo">Main Dish</input>
+        </li>
+        <li>
+          <input type="radio" class="side-button" id="radioThree">Dessert</input>
+        </li>
+        <li>
+          <input type="radio" class="side-button" id="radioFour">Entre Meal</input>
+        </li>
+      </ul> 
+      <button class="cook">Let's Cook!</button>
+    </section>
+    <section class="random-recipe">
+      <p class="you-should"hidden>You should make:</p>
+      <img class="crockPot" src="assets/cookpot.svg">
+    </section>
+  </div>
+</main>
+<section class="user-input">
+  <p>Recipe Type:</p>
+  <input class="type-input">
+  <p>Recipe Name:</p>
+  <input class="name-input">
+  <button class="add-new">ADD NEW</button>
+</section>
   </body>
   <script type="text/javascript" src="main.js"></script>
 </html>
