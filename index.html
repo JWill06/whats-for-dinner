@@ -11,33 +11,37 @@
     <main>
       <div class="parent-section">
     <section class="choose-section">
-      <h1 class="looking-for">What are you looking for?</h1>
+      <h1 class="looking-for">What are you looking for?<span class="ast">*</span></h1>
+
       <ul>
         <li>
           <input type="radio" class="side-button" id="radioOne">Side</input>
         </li>
         <li>
-          <input type="radio" class="side-button" id="radioTwo">Main Dish</input>
+
+          <input type="radio" class="main-button" id="radioTwo">Main Dish</input>
         </li>
         <li>
-          <input type="radio" class="side-button" id="radioThree">Dessert</input>
+          <input type="radio" class="dessert-button" id="radioThree">Dessert</input>
         </li>
         <li>
-          <input type="radio" class="side-button" id="radioFour">Entre Meal</input>
+          <input type="radio" class="entre-button" id="radioFour">Entre Meal</input>
         </li>
       </ul> 
       <button class="cook">Let's Cook!</button>
     </section>
     <section class="random-recipe">
-      <p class="you-should"hidden>You should make:</p>
+      <p class="you-should hidden">You should make:</p>
+
       <img class="crockPot" src="assets/cookpot.svg">
     </section>
   </div>
 </main>
-<section class="user-input">
-  <p>Recipe Type:</p>
+<section class="user-input hidden">
+  <label>Recipe Type:</label>
   <input class="type-input">
-  <p>Recipe Name:</p>
+  <label>Recipe Name:</label>
+
   <input class="name-input">
   <button class="add-new">ADD NEW</button>
 </section>
