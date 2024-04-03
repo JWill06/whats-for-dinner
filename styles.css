@@ -28,6 +28,8 @@ body {
     display: column;
     background-color: rgba(225, 225, 225, .9);
     border-radius: 15px;
+    border: none;
+    margin: 15px;
 }
 
 .parent-section {
@@ -61,22 +63,31 @@ body {
 img {
     height: 5rem;
     width: 5rem;
+    margin: 170px
 }
 
 ul, 
 li {
-    decoration: none,
+    list-style-type: none;
+    margin: 10px
 }
 
 .looking-for {
     align-items: center;
+    margin: 45px
 }
 
+p,
+.type-input,
+.name-input {
+    margin: 10px;
+    justify-content: center;
+}
 
 
 .add-new,
 .cook {
-    margin: 5px;
+    margin: 15px;
     background-color: #0fb9b1;
     border: none;
     border-radius: 3px;
