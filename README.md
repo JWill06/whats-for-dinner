@@ -11,6 +11,7 @@ I built an application that allows the user to get a random dish item whether th
 5. After cloned down inside your terminal input "open index.html" and you will be on the app. 
 
 ### Preview of App:
+![Screenshot 2024-04-06 at 5 36 45 PM](https://github.com/JWill06/whats-for-dinner/assets/127267694/27a7e372-e184-46de-9d15-4eafbbc7924e)
 
 ### Context:
 [//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
