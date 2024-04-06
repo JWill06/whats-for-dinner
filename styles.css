@@ -1,24 +1,18 @@
-/* font-family: 'Roboto', sans-serif;
-
-COLORS
-teal - #0fb9b1;
-frosted white - rgba(225, 225, 225, .9);
-grey - #95a5a6;
-red - #ee5253
-
-*/
 body {
+    font-family: 'Roboto' ,sans-serif;
     background-image: url('assets/burger-friends.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     margin: 0;
+    width: 100vw;
+    height: 100vh;
 }
 
 .top-section {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #0fb9b1;
     margin: 0;
 }
@@ -33,47 +27,74 @@ body {
     border: none;
     margin: 15px;
     cursor: pointer;
+    height: 2.5rem;
 }
 
 .parent-section {
     display: flex;
-    justify-content: center;
-    height: 100vh;
+    justify-content: space-evenly;
+    height: 80vh;
+    width: 100vw;
     margin-top: 35px;
 }
 .random-recipe{
     align-items: center;
+    text-align: center;
     background-color: rgba(225, 225, 225, .9);
-    justify-content: center;
     height: 400px;
     width: 400px;
     margin: 15px;
+}
+
+ .you-should {
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-top: 180px; 
+    text-align: center;
+    white-space: nowrap;
+}
+.new-make {
+    margin-left: 10px;
+}
+
+.clear{
+    background-color: #95a5a6;
+    border-radius: 10px;
+    border: none;
+    margin-left: 15rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    height: 2.5rem;
 }
 
 .choose-section {
+    justify-content: start;
+    align-items: center;
     background-color: rgba(225, 225, 225, .9);
     height: 400px;
     width: 400px;
-    margin: 15px;
-}
-
-.user-input {
-    display: flex;
-    justify-content: flex-start;
-    background-color: rgba(225, 225, 225, .9);
+    margin: 15px
 }
 
 img {
     height: 5rem;
     width: 5rem;
-    margin: 170px
+    margin: 130px
 }
 
-ul, 
-li {
-    list-style-type: none;
-    margin-left: 0;
+.random-choice {
+    display: flex;
+    flex-direction: column;
     margin-top: 20px;
+    margin-left: 20px;
+}
+
+.random-choice label {
+    margin: .5rem;
+}
+
+.random-choice h1 {
+    margin-left: 15px;
 }
 
 .looking-for {
@@ -81,32 +102,9 @@ li {
     margin: 45px
 }
 
-
-.type-input,
-.name-input {
-    margin: 10px;
-    justify-content: center;
-    height: 45px
-}
-
-label {
-    margin-top: 20px;
-    margin-left: 15px;
-}
-
-.add-new {
-    margin-left: 5px;
-    margin-top: 15px;
-    background-color: #0fb9b1;
-    border: none;
-    border-radius: 3px;
-    height: 2rem;
-    cursor: pointer;
-}
-
 .cook {
-    margin-left: 55px;
-    margin-top: 25px;
+    margin-left: 25px;
+    margin-top: 45px;
     background-color: #0fb9b1;
     border: none;
     border-radius: 3px;
@@ -121,5 +119,17 @@ label {
 }
 
 .hidden {
-    display: none;
+    display: none !important;
+}
+
+.error-container {
+    position: relative;
+    text-align: center;
+    background-color: red;
+    color: black;
+    border: solid black 2px;
+    height: fit-content;
+    width: fit-content;
+    left: 145px;
+    bottom: 425px;
 }
